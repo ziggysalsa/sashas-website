@@ -1,0 +1,29 @@
+---
+import { SITE_TITLE } from "../consts";
+import { NAV_ITEMS } from "../consts";
+---
+
+<header>
+  <a class="title" href={Astro.url}>
+    <h1>{SITE_TITLE}</h1>
+  </a>
+  <nav>
+    {NAV_ITEMS.map(item => (
+      <a href={item.link} class={Astro.url.pathname === item.link ? 'active' : ''}>
+        {item.text}
+      </a>
+    ))}
+  </nav>
+</header>
+
+<style>
+  nav {
+    position: relative;
+  }
+  nav div {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+  }
+</style>

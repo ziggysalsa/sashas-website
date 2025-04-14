@@ -1,0 +1,80 @@
+:root {
+    --width: 720px;
+    --min-height: 100vh;
+    --font-main: 'Times New Roman', Times, serif;
+    --font-secondary: 'Times New Roman', Times, serif;
+    --font-scale: 1em;
+    --background-color: #000;
+    --heading-color: #fff;
+    --text-color: #fff;
+    --link-color: #00ffff;
+    --visited-color: #ff00ff;
+    --code-background-color: #000;
+    --code-color: #fff;
+    --blockquote-color: #fff;
+    --code-border-color: #00ffff;
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: var(--font-scale);
+  margin: auto;
+  padding: 20px;
+  max-width: var(--width);
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: var(--text-color);
+  min-height: var(--min-height);
+  background: var(--background-color);
+  transition: color 0.5s ease;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+  
+.title:hover {
+    text-decoration: none;
+}
+  
+.title h1 {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-family: var(--font-main);
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+    margin-bottom: 0.5em;
+  }
+
+a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+nav a {
+    margin-right: 12px;
+  }
+  
+nav a.active {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
