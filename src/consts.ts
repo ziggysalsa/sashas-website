@@ -2,10 +2,11 @@ export const SITE_TITLE = "Sasha's Stuff";
 export const SITE_DESCRIPTION = "Placeholder site description";
 export const COPYRIGHT = "© 2025 Sasha Zelenski";
 
-export const SOCIAL_LINKS = {
-  Github: "https://github.com/ziggysalsa",
-  LinkedIn: "https://www.linkedin.com/in/yourusername",
-};
+export const SOCIAL_LINKS = [
+  { text: "Email", link: "mailto:sasha@sashazelenski.com" },
+  { text: "Github", link: "https://github.com/ziggysalsa" },
+  { text: "LinkedIn", link: "https://www.linkedin.com/in/yourusername" },
+];
 
 export const NAV_ITEMS = [
   { text: "Home", link: "/" },
@@ -14,4 +15,5 @@ export const NAV_ITEMS = [
   //{ text: "Blog", link: "/blog" },
   { text: "Projects", link: "/projects" },
   // { text: "Tags", link: "/tags" },
+  { text: "Cats", link: "/cats" },
 ];

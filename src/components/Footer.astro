@@ -1,10 +1,16 @@
 ---
-import { COPYRIGHT} from "../consts";
+import { COPYRIGHT, SOCIAL_LINKS } from "../consts";
 ---
 
 <footer>
     <small>
-      {COPYRIGHT && `${COPYRIGHT}`}
+      {COPYRIGHT && `${COPYRIGHT}`} <br>
+      {SOCIAL_LINKS.map((item, i) => (
+        <>
+          <a href={item.link}>{item.text}</a>
+          {i < SOCIAL_LINKS.length - 1 && ' | '}
+        </>
+      ))}
     </small>
   </footer>
   

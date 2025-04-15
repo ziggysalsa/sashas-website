@@ -1,0 +1,23 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import amtrakMapImage from '../../content/amtrak_map.png';
+---
+
+<Layout title="Amtrak Map">
+  <h1> Amtrak Map </h1>
+
+  <div class="prose">
+    <p>
+      Under construction
+    </p>
+  </div>
+
+  <figure>
+    <img src={amtrakMapImage.src} alt="Map of United States with Amtrak routes." style="width: 100%; max-width: 720px;">
+    <figcaption> Static image of amtrak map.</figcaption>
+  </figure>
+
+    <p>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Interactive Amtrak Map </a>  (takes a while to load)
+    </p>
+</Layout>
