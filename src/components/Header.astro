@@ -17,13 +17,34 @@ import { NAV_ITEMS } from "../consts";
 </header>
 
 <style>
-  nav {
-    position: relative;
-  }
-  nav div {
-    position: absolute;
+  header {
     display: flex;
-    right: 0;
-    top: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+  font-size: 1em;
+  text-decoration: none;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    margin-right: 12px;
+  }
+  
+  nav a.active {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
   }
 </style>

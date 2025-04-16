@@ -35,15 +35,6 @@ footer {
     padding: 25px 0;
     text-align: center;
 }
-  
-.title {
-  font-size: 1em;
-  text-decoration: none;
-}
-
-.title:hover {
-    text-decoration: none;
-}
 
 h1 {
     font-size: 1.75em;
@@ -68,16 +59,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-  }
-  
-nav a {
-    margin-right: 12px;
-    text-decoration: none;
-  }
-  
-nav a.active {
-    text-decoration-line: underline;
-    text-decoration-style: double;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
   }
