@@ -1,0 +1,21 @@
+---
+import "../styles/gallery.css";
+import { CAT_IMAGES } from "../consts";
+---
+
+<div class="gallery">
+  {CAT_IMAGES.map(image => (
+    <div class="gallery-item">
+      <img src={image.src} alt={image.alt} 
+        onclick={
+            `document.getElementById('lightbox-img').src = '${image.src}'; 
+            document.getElementById('lightbox').style.display = 'flex'`
+        } />
+      <p class="caption">{image.caption}</p>
+    </div>
+  ))}
+</div>
+
+<div id="lightbox" class="lightbox" onclick="this.style.display = 'none'">
+  <img id="lightbox-img" src="" alt="Enlarged image" />
+</div>
