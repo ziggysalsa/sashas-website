@@ -1,6 +1,7 @@
 ---
 import { SITE_TITLE } from "../consts";
 import { NAV_ITEMS } from "../consts";
+import ThemeIcon from './ThemeIcon.astro';
 ---
 
 <header>
@@ -13,6 +14,7 @@ import { NAV_ITEMS } from "../consts";
         {item.text}
       </a>
     ))}
+    <ThemeIcon />
   </nav>
 </header>
 
