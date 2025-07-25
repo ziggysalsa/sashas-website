@@ -41,7 +41,7 @@ export const CAT_IMAGES = [
   { src: "/images/twice_told_tales_cat_1.JPG", alt: "Cat napping by books", caption: "Cat at Twice Told Tales in Seattle" },
   { src: "/images/rachels_foster_kitty.jpg", alt: "Kitten under bed", caption: "A friend's foster kitten" },
   { src: "/images/shelter_kitty_1.jpg", alt: "Kitten on shoulder", caption: "Kitten at PAWS in Seattle" },
-  { src: "/images/4th_of_july_cat.jpg", alt: "Tabby cat lying down", caption: "A cat I spotted on a catio" },
+  { src: "/images/4th_of_july_cat.JPG", alt: "Tabby cat lying down", caption: "A cat I spotted on a catio" },
   { src: "/images/abq_8.JPG", alt: "ABQ cat 8", caption: "Another cat in an Albuquerque cat cafe/animal shelter" },
   { src: "/images/twice_told_tales_cat_2.JPG", alt: "Two cats in bookstore", caption: "More cats at Twice Told Tales in Seattle" },
   { src: "/images/jasmines_cat.JPG", alt: "Cat looking through window", caption: "A friend's cat" },
