@@ -8,6 +8,7 @@
 
 html.dark {
   --background-color: #000;
+  --border-color: #ffffff;
   --heading-color: #fff;
   --text-color: #fff;
   --link-color: #00ffff;
@@ -20,6 +21,7 @@ html.dark {
 
 html.light {
   --background-color: #f4e4b9;
+  --border-color: #000000;
   --heading-color: #000000;
   --text-color: #000000;
   --link-color: #0000ff;
