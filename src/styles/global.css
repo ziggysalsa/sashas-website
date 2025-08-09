@@ -77,3 +77,10 @@ a {
 a:hover {
     text-decoration: underline;
   }
+
+figcaption {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
