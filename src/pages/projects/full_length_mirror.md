@@ -17,7 +17,7 @@ layout: ../../layouts/Layout.astro
 
 # Refinishing a vintage full-length mirror
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+I went to an estate sale back in 2024 and found a heavy, full-length vintage mirror. The woman who was selling it had it in her childhood bedroom over 80 years ago. It was covered in layers of cigarette smoke residue and acrylic paint, but I could tell by its weight that there was something beautiful under all that. So, I managed to fit it in the little sedan I was driving and brought it home! This was my first time refinishing a piece of furniture, and it sure was a learning experience. 
 
 <div class="image-row">
   <figure>
@@ -30,21 +30,22 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
   </figure>
 </div>
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 <figure class="float-left">
   <img src="/images/full_length_mirror/mirror_back_mid_washing.JPG" alt="">
   <figcaption>Back of the mirror in the middle of washing.</figcaption>
 </figure>
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+I started by washing off as much grime as I could. You can see in the picture on the right how much whiter and brighter the top of the mirror looks vs the bottom. That’s years and years of cigarette smoke and dirt. I didn’t *need* to wash it off, since I’d be applying paint stripper to the mirror right after, but I wanted to get some of the smell off.
 
-<div class="flow-clear"></div>
+Once I’d washed it, I moved on to the paint stripper. I used Max Strip Paint & Varnish Stripper. I applied it to the wood, covered it with plastic wrap, waited 30 minutes, and scraped scraped scraped. Then I did all of that a second time. I did put down a plastic dropcloth, but if I was to do this again, I’d put down a bigger one. The paint I was scraping off was sticky and got on the cement of my patio. I used mineral spirits to clean it off, but it was a pain to do.
+
+I realized halfway through that if I took the mirror out of the frame, it’d be a lot easier to lift and manuever the wooden frame by itself, so I spent a good while doing that. After I pulled the nails out of the back of the mirror, I still had to get the little wooden shims holding the mirror in the front frame out. Those were a pain. They were held in place just with nails, but there was grime and rust covering those nails. While I was removing them, I scraped some of the silver coating off the back of the mirror - thankfully, it was a very small scrape. In the future, I might try to restore the silver coating.
 
 <div class="image-row">
   <figure>
-    <img src="/images/full_length_mirror/mirror_front_paint_removal.JPG" alt="">
-    <figcaption>Mirror front during paint removal.</figcaption>
+    <img src="/images/full_length_mirror/mirror_popping_out.JPG" alt="">
+    <figcaption>Getting the mirror out of the frame.</figcaption>
   </figure>
   <figure>
     <img src="/images/full_length_mirror/mirror_back_paint_removal.JPG" alt="">
@@ -52,14 +53,13 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
   </figure>
 </div>
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 <figure class="float-right">
   <img src="/images/full_length_mirror/mirror_front_sanded.JPG" alt="">
   <figcaption>Mirror front after sanding.</figcaption>
 </figure>
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Once I got the mirror out of the frame and finished stripping the paint, I gave it a good wipe-down with mineral spirits, and then it was time for sanding. I sanded the front frame by hand, since it’s curved. I was able to use my orbital sander for the back of the frame. Unfortunately, I didn’t get a photo of sanding the back. At this point, you could really see the details of the wood, and it was as beautiful as I hoped it would be!
 
 <div class="flow-clear"></div>
 
@@ -68,9 +68,11 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
   <figcaption>Mirror back midway through first staining process.</figcaption>
 </figure>
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+After I’d sanded it down, I stained it. I saw Behr Premium Stain and Poly in One at the store and thought “Great! That’s less steps and less products to buy!” but man, was I wrong. Water-based stains are already trickier to work with than oil-based (in my opinion), and the 2-in-1 stain is even more tricky to apply evenly than regular water-based stain. Next time, I’ll use a separate stain and poly, likely oil-based. You can see how streaky my application ended up being, though I took care to apply a pre-stain conditioner and work quickly when staining. After getting most of the way through, it was so streaky that I had to get out my sander again and sand down some of the stain/poly to start over.
 
 <div class="flow-clear"></div>
+
+I did a take 2 of applying the stain/poly, using a larger brush and working even more quickly. I had to apply 4 coats to get it mostly even, which means it turned out darker than I wanted. You can’t see and appreciate the wood grain as much as I’d like, but it’s a lot better than being covered by acrylic paint. I put the mirror back together, added a wall hanger, and hung it up! Now I have a beautiful vintage mirror. I’m just not looking forward to moving with it, because this thing is heavy.
 
 <div class="image-row">
   <figure>
