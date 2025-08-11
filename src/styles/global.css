@@ -1,9 +1,9 @@
 :root {
-    --width: 720px;
-    --min-height: 100vh;
-    --font-main: 'Times New Roman', Times, serif;
-    --font-secondary: 'Times New Roman', Times, serif;
-    --font-scale: 1em;
+  --width: 720px;
+  --min-height: 100vh;
+  --font-main: "Times New Roman", Times, serif;
+  --font-secondary: "Times New Roman", Times, serif;
+  --font-scale: 1em;
 }
 
 html.dark {
@@ -49,38 +49,31 @@ body {
 }
 
 footer {
-    padding: 25px 0;
-    text-align: center;
+  padding: 25px 0;
+  text-align: center;
 }
 
 h1 {
-    font-size: 1.75em;
-    font-family: var(--font-main);
-  }
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-main);
-    color: var(--heading-color);
-    margin-bottom: 0.5em;
-  }
+  font-size: 1.75em;
+  font-family: var(--font-main);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-main);
+  color: var(--heading-color);
+  margin-bottom: 0.5em;
+}
 
 a {
-    font-size: 1em;
-    color: var(--link-color);
-    cursor: pointer;
-    text-decoration: underline;
+  font-size: 1em;
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
-  }
-
-figcaption {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  font-size: 0.8rem;
-  color: var(--text-color);
+  text-decoration: underline;
 }

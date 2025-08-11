@@ -3,60 +3,6 @@ title: "Refinishing a vintage mirror"
 layout: ../../layouts/Layout.astro
 ---
 
-<style>
-  .image-row {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .image-row figure {
-    max-width: 200px;
-    text-align: left;
-    margin: 1rem;
-  }
-  .image-row img {
-    width: 100%;
-    max-height: 300px;
-    height: auto;
-    object-fit: contain;
-  }
-
-  .float-left,
-  .float-right {
-    max-width: 200px;
-    max-height: 300px;
-    text-align: left;
-    margin-bottom: 0.5rem;
-  }
-  .float-left img,
-  .float-right img {
-    width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: contain;
-  }
-  .float-left {
-    float: left;
-  }
-  .float-right {
-    float: right;
-  }
-  .flow-clear {
-    clear: both;
-  }
-
-@media (max-width: 600px) {
-.float-left,
-.float-right,
-.image-row {
-    float: none;
-    margin: 0 auto 1rem;
-}
-}
-
-</style>
-
 # Refinishing a vintage mirror
 
 I went to an estate sale back in 2024 and found a heavy, full-length vintage mirror. The woman who was selling it had it in her childhood bedroom over 80 years ago. It was covered in layers of cigarette smoke residue and acrylic paint, but I could tell by its weight that there was something good under all that paint and grime. So, I managed to fit it in the little sedan I was driving and brought it home! This was my first time refinishing a piece of furniture, and it sure was a learning experience.
@@ -121,3 +67,4 @@ I did a take 2 of applying the stain/poly, using a larger brush and working fast
     <figcaption>Mirror back, finished!</figcaption>
   </figure>
 </div>
+```
