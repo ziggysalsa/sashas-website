@@ -5,7 +5,7 @@ layout: ../../layouts/Layout.astro
 
 # Refinishing a vintage mirror
 
-I went to an estate sale back in 2024 and found a heavy, full-length vintage mirror. The woman who was selling it had it in her childhood bedroom over 80 years ago. It was covered in layers of cigarette smoke residue and acrylic paint, but I could tell by its weight that there was something good under all that paint and grime. So, I managed to fit it in the little sedan I was driving and brought it home! This was my first time refinishing a piece of furniture, and it sure was a learning experience.
+I went to an estate sale back in 2024 and found a heavy, full-length vintage mirror. The woman who was selling it had it in her childhood bedroom over 80 years ago. It was covered in layers of cigarette smoke residue and acrylic paint, but I could tell by its weight that there was something good under all the paint and grime. So, I managed to fit it in the little sedan I was driving and brought it home! This was my first time refinishing a piece of furniture, and it sure was a learning experience.
 
 <div class="image-row">
   <figure>
@@ -18,7 +18,7 @@ I went to an estate sale back in 2024 and found a heavy, full-length vintage mir
   </figure>
 </div>
 
-I started by washing off as much grime as I could. You can see how much brighter the top of the mirror looks vs the bottom. That’s years and years of cigarette smoke and dirt. I didn’t _need_ to wash it off, since I’d be applying paint stripper to the mirror right after, but I wanted to get some of the smell off.
+I started by washing off as much grime as I could. You can see how much brighter the top of the mirror looks vs the bottom. That’s years and years of cigarette smoke and dirt. I didn’t _need_ to wash it, since I’d be applying paint stripper to the mirror right after, but I wanted to get rid of the smoke smell as soon as possible.
 
 <figure class="image-row">
   <img src="/images/full_length_mirror/mirror_back_mid_washing.JPG" alt="">
