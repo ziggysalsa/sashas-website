@@ -1,10 +1,18 @@
 ---
 import "../styles/gallery.css";
-import { CAT_IMAGES } from "../consts";
+interface ImageItem {
+  src: string;
+  alt: string;
+  caption: string;
+}
+interface Props {
+  images: ImageItem[];
+}
+const { images } = Astro.props;
 ---
 
 <div class="gallery">
-  {CAT_IMAGES.map(image => (
+  {images.map(image => (
     <div class="gallery-item">
       <img src={image.src} alt={image.alt} 
         onclick={
