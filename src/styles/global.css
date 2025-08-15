@@ -14,7 +14,7 @@ html.dark {
   --link-color: #00ffff;
   --visited-color: #ff00ff;
   --code-background-color: #000;
-  --code-color: #fff;
+  --code-color: #ff00ff;
   --blockquote-color: #fff;
   --code-border-color: #00ffff;
 }
@@ -76,4 +76,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+code {
+  color: var(--code-color);
 }
