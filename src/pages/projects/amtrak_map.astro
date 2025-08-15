@@ -1,0 +1,65 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Subway-Style Amtrak Map">
+  <h1>Subway-Style Amtrak Map</h1>
+
+  <iframe src="interactive_amtrak_map.html" style="width:100%; height:400px; margin-bottom:20px;"
+  ></iframe>
+
+  
+
+  I have a semi-serious goal of riding every mile of Amtrak track in the United
+  States. As part of this, I need to know what routes cover what tracks, so that
+  I know how far a given route will take me.
+
+  <figure class="float-left">
+    <img src="/content/amtrak_map/official_amtrak_map.png" />
+    <figcaption>
+      Official Amtrak map of all routes
+      <a
+        href="https://www.amtrak.com/content/dam/projects/dotcom/english/public/documents/Maps/Amtrak-System-Map-020923.pdf"
+        target="_blank"
+        rel="noopener"
+      >
+        (Source).</a
+      >
+    </figcaption>
+  </figure>
+  Amtrak has a map showing the entire Amtrak system. It doesn't indicate which routes
+  cover which parts of the tracks; it just shows the tracks. It also has maps for
+  each individual route, but these maps only show one route at a time. It's very
+  common for Amtrak routes to share trackage - for example, there are 6 Amtrak routes
+  that share trackage between NYC and DC. I haven’t been able to find a map which
+  displays this information.
+
+  <div class="flow-clear"></div>
+
+  <figure class="float-right">
+    <img src="/content/amtrak_map/chicago_subway_map.png" />
+    <figcaption>
+      Map of the Loop on the Chicago Subway
+      <a
+        href="https://www.transitchicago.com/assets/1/6/ctamap_Lsystem.png"
+        target="_blank"
+        rel="noopener"
+      >
+        (Source).</a
+      >
+    </figcaption>
+  </figure>
+  I wanted something that looks like a subway map such that when two or more routes
+  overlap, they’re are shown side-by-side. As an example, here's what the downtown
+  loop looks like on the Chicago subway map. The same way that the Pink and Green
+  lines are shown side-by-side where they overlap, I want to be able to see the Amtrak
+  Cascades and Coast Starlight side-by-side where they overlap between Eugene, OR
+  and Seattle, WA. I was able to get GIS data for the <a href="https://www.arcgis.com/home/item.html?id=8f534a0c7468483f9837ef93e2e5ebb1"; target="_blank"; rel="noopener"> routes</a>
+  from the National Transportation Atlas Database (NTAD).  I used the shapely
+  library to do the offsetting of routes. This process resulted in breaks in the
+  lines around curves, so I had to interpolate between the disconnected sections
+  of the routes. The result isn’t perfect, and if you zoom in, you can sometimes
+  still see breaks in the route, especially in areas where many offsets were done,
+  like between NYC and DC. But for my purposes (printing it out and hanging it on
+  a map), it works. 
+</Layout>
